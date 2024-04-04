@@ -1,0 +1,34 @@
+
+h1 {
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+font-family: 'Baloo Bhai 2', sans-serif;
+    font-size: 100px;
+    font-weight: 400;
+    
+}
+*{
+    align-items: center;
+}
+h2{
+    text-transform: lowercase;
+    text-decoration:underline;
+    text-decoration-color: brown;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 7px;
+    text-indent: 109px;
+    text-align: center;
+    margin: 30px;
+    padding: 30px;
+    align-items: center;
+}
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    text-decoration: overline;
+    text-decoration: underline;
+    /* words and sentences underlined ho jayenge */
+    /* hum google fonts ki madad se font ka use kr sakte hai
+    baloo bhai2 etc are font example */
+    line-height: 1.8px;
+}
