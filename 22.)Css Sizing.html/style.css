@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    box-sizing: border-box;
+    border:2px solid black;
+    width:80vw;
+    /* width: 2040px; */
+    width: 80vh;
+    /* height: 10vh; */
+    margin: auto;
+    /* margin auto matlab left aur right se margin automatic lag jayegi */
+    border:0px;
+    background-color: aqua;
+    min-height: 5vh;
+    border: 5px solid greenyellow;
+}
+.container{
+    box-sizing: border-box;
+    border:2px solid black;
+    
+    /* width: 2040px; */
+    width: 80vh;
+    /* height: 10vh; */
+    margin: 65px;
+    /* margin auto matlab left aur right se margin automatic lag jayegi */
+    border:0px;
+    background-color:aquamarine;
+    font-size: 2em;
+    min-height: 80vh;
+    width: 80%;
+    border: 5px solid red;
+   
+    /* em ka matlab default value into the value */
+}
+.mycont{
+    background-color: rgb(164, 28, 164);
+    margin: 65px;
+    font-size: 4em;
+    font-size: 62px;
+    width: 100vh;
+}
