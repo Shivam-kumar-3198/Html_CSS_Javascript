@@ -1,0 +1,7 @@
+.yellow{
+      color: yellow;
+}
+[data-x=a]{
+    background-color: red;
+}
+/* Important Is used to set Priority */
