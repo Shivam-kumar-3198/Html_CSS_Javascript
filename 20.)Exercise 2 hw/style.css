@@ -1,0 +1,12 @@
+p{
+    background-color: blue;
+    color: white;
+}
+div p:first-child{
+    background-color: yellow;
+    color: red;
+}
+div p:second-child{
+    background-color: aqua;
+    color: black;
+}
