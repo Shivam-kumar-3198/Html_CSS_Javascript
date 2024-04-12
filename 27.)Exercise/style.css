@@ -1,0 +1,9 @@
+div p:first-child{
+    background-color: orangered;
+}
+div p:nth-child(2){
+    background-color: white;
+}
+div p:nth-child(3){
+    background-color: green;
+}
