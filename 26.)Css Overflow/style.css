@@ -1,0 +1,16 @@
+.box{
+    width: 40vw;
+    height: 10vh;
+    border: 2px solid black;
+    overflow: auto;
+    overflow: scroll;
+    white-space: nowrap;
+    overflow-x: visible;
+    overflow-y: hidden;
+    /* nowrap ke help se hum text ko ek line me kr skte hai horizontal line me */
+    /* text-overflow: ellipsis; */
+
+
+}
+
+
