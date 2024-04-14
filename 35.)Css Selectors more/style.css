@@ -1,0 +1,41 @@
+/* .box:first-child{
+    background-color: rgb(150, 153, 51);
+} */
+/* .boxes::first-line{
+    color: rgb(255, 128, 0);
+} */
+.boxes{
+    color: rgb(0, 204, 255);
+}
+p, a, .box, [data-color="primary"]{
+    padding-top: 45px;
+}
+.box:nth-child(odd){
+    background-color: rgb(232, 232, 245);
+}
+.box:nth-last-child(1){
+    background-color: rgb(235, 226, 226);
+}
+.bar{
+    margin: 20px;
+    padding: 0px;
+}
+/* pseudo Elements not Selector */
+.boxes::before{
+    content: "Shivam is Best";
+    color: rgb(13, 13, 11);
+    font-weight: 200;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.boxes::after{
+    content: "Why Shivam Is Good";
+    color: black;
+}
+.box::first-letter{
+    color: peru;
+    font-size: 56px;
+}
+input::placeholder{
+    color: rgb(25, 25, 27);
+    font-size: 12px;
+}
